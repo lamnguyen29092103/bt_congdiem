@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="introduce.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <input type="checkbox" id="check">
+        <label for="check" id="btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="" id="Brand">
+            <a href="">Travel</a> 
+        </label>
+        <ul>
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="introduct.html">Introduction</a>
+            </li>
+            <li>
+                <a href="place.html">Places</a>
+            </li>
+            <li>
+                <a href="SignUp.html">Sign Up</a>
+            </li>
+            <li>
+                <a href="">Contacts</a>
+            </li>
+        </ul>
+    </div>
+    <!-- xong header -->
+    <div class="Slide">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href=""><img src="img/1.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/2.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/3.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- xong slide -->
+    <div class="Content">
+        <div class="Content_Tittle">
+            <a href=""> Giới Thiệu</a>
+        </div>
+        <div class="Content_Small">
+            <p>
+                <h3 style="font-size:16px;text-align: center;">Nhà hát Thành phố Hồ Chí Minh</h3>
+            </p>
+            <p>
+                Nhà hát Thành phố Hồ Chí Minh là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh.
+            </p>
+            <img src="img/36.jpg" alt="">
+            <p>Nhà hát lớn Sài Gòn là một đối trọng về mặt kiến trúc với Nhà hát lớn Hà Nội (cất năm 1911, kiến trúc theo mẫu Opéra Garnier tại Paris, 900 chỗ ngồi, kiến trúc sư Broger et Harloy)</p>
+        </div>
+        <!-- xong Content -->
+        <div class="footer">
+            <div class="loader"><i class="fab fa-instagram"></i>
+            </div>
+            <div class="loader"><i class="fab fa-facebook-f"></i></div>
+            <div class="loader"><i class="fab fa-twitter"></i></div>
+            <div class="loader"><i class="fab fa-youtube"></i></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="owlcarousel/jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Place-1.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <input type="checkbox" id="check">
+        <label for="check" id="btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="" id="Brand">
+            <a href="">Travel</a> 
+        </label>
+        <ul>
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="introduct.html">Introduction</a>
+            </li>
+            <li>
+                <a href="place.html">Places</a>
+            </li>
+            <li>
+                <a href="SignUp.html">Sign Up</a>
+            </li>
+            <li>
+                <a href="">Contacts</a>
+            </li>
+        </ul>
+    </div>
+    <!-- xong header -->
+    <div class="Slide">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href=""><img src="img/1.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/2.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/3.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- xong slide -->
+    <div class="Content">
+        <div class="Content_Tittle">
+            <a href=""> Giới Thiệu</a>
+        </div>
+        <div class="Content_Small">
+            <p>
+                Cứ nhắc tới Thảo Cầm Viên làm tôi lại chợt nhớ đến câu chuyện do mẹ tôi kể khi bà còn nhỏ. Mẹ bảo hồi hơn 55 năm trước gia đình ông bà ngoại tôi nghèo lắm, cả nhà kiếm sống bằng nghề cắt rau muống rồi gánh ra chợ bán nên thu nhập chẳng là bao. Mà thời
+                đấy thì chẳng những kinh tế mà đời sống vật chất lẫn tinh thần của mọi người vẫn còn đơn sơ, nghèo nàn, nhất là tụi con nít như mẹ tôi chẳng có gì để vui chơi ngoài mấy trò nhảy dây, thảy gạch hay nhà chòi, hái trộm trái cây trong vườn,…
+                Ấy vậy mà với mẹ, những trò chơi giản đơn ấy lại rất vui và chúng đọng lại nhiều ký ức tuổi thơ hơn là thời bọn tôi chỉ chăm chăm vào mấy quyển truyện tranh, xem hoạt hình hay chơi game,… Rồi mẹ lại bảo: “Thay vì bây giờ tụi con một năm
+                ước sẽ được đi du lịch nước ngoài 1 lần thì với thời của mẹ có khi nó còn chẳng hấp dẫn bằng một tấm vé đến Sở Thú – Thảo Cầm Viên”.
+            </p>
+            <img src="img/17.jpeg" alt="">
+            <p> Mẹ kể tiếp: “Hồi đấy ông bà ngoại phải dành dụm dữ lắm mới có thể mỗi năm dắt mẹ tới Sở thú 1 lần. Có cái năm đó cũng không nhớ vì sao mà ông bà ngoại không chở được, một mình mẹ bất chấp đạp chiếc xe đạp lộc từ nhà đến Sở thú khoảng gần 20km
+                trong khi thời đó đường xá còn gập ghềnh, ao sông ngoằn ngoèo chứ có được thẳng thóm như bây giờ. Vậy đó, mê Sở thú lắm nên đứa con nít nào cũng bất chấp đi cho bằng được bởi nó chẳng khác gì như một ước mơ thuở bé”. Nghe xong chuyện của
+                mẹ, nó làm tôi chợt ngẫm về mình và thấy cũng có khác gì đâu!?
+            </p>
+            <img src="img/18.jpeg" alt="">
+            <p>
+                Và sau hơn 1 ngày dành thời gian trở về để tìm hiểu, tôi nhận ra bản thân đã có những lầm tưởng, những điều hoàn toàn không ngờ tới về một Thảo Cầm Viên ở hiện tại có gì, khiến nó trở nên mới mẻ và cực kỳ thú vị hơn những gì tôi biết về nơi này từ cách
+                đây… rất lâu.
+            </p>
+            <img src="img/19.png" alt="">
+        </div>
+        <!-- xong Content -->
+        <div class="footer">
+            <div class="loader"><i class="fab fa-instagram"></i>
+            </div>
+            <div class="loader"><i class="fab fa-facebook-f"></i></div>
+            <div class="loader"><i class="fab fa-twitter"></i></div>
+            <div class="loader"><i class="fab fa-youtube"></i></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="owlcarousel/jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        </script>
+</body>
+
+</html>

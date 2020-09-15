@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="introduce.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <input type="checkbox" id="check">
+        <label for="check" id="btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="" id="Brand">
+            <a href="">Travel</a> 
+        </label>
+        <ul>
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="introduct.html">Introduction</a>
+            </li>
+            <li>
+                <a href="place.html">Places</a>
+            </li>
+            <li>
+                <a href="SignUp.html">Sign Up</a>
+            </li>
+            <li>
+                <a href="">Contacts</a>
+            </li>
+        </ul>
+    </div>
+    <!-- xong header -->
+    <div class="Slide">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href=""><img src="img/1.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/2.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/3.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- xong slide -->
+    <div class="Content">
+        <div class="Content_Tittle">
+            <a href=""> Giới Thiệu</a>
+        </div>
+        <div class="Content_Small">
+            <p>
+                Khu phố Tây ăn chơi nức tiếng của các bạn trẻ Sài Thành được khoác lên mình “bộ áo mới” trở thành phố đi bộ thứ 2 của Sài Gòn sau phố đi bộ Nguyễn Huệ.
+            </p>
+            <img src="img/31.jpg" alt="">
+            <p> Trước khi trở thành phố đi bộ, phố Bùi Viện đã được biết đến là khu Tây ba lô do lượng khách du lịch đến đây chủ yếu từ các nước phương Tây và là nơi “ăn chơi” dành riêng cho các bạn trẻ Sài Thành. Con phố vốn đã nhộn nhịp nay càng trở nên
+                tấp nập, đông vui hơn nữa.
+            </p>
+            <img src="img/32.jpg" alt="">
+        </div>
+        <!-- xong Content -->
+        <div class="footer">
+            <div class="loader"><i class="fab fa-instagram"></i>
+            </div>
+            <div class="loader"><i class="fab fa-facebook-f"></i></div>
+            <div class="loader"><i class="fab fa-twitter"></i></div>
+            <div class="loader"><i class="fab fa-youtube"></i></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="owlcarousel/jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        </script>
+</body>
+
+</html>

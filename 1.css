@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    background-image: url("img/2.jpg");
+    background-size: cover;
+    background-position: 0px -123px;
+    height: calc(100vh);
+    background-repeat: no-repeat;
+}
+
+@import url('https://fonts.google.com/');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #052640;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header ul li {
+    list-style-type: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    float: left;
+    padding: 30px 10px;
+    padding-right: 48px;
+}
+
+.header ul {
+    float: right;
+}
+
+#Brand {
+    float: left;
+    font-size: 48px;
+    line-height: 77px;
+}
+
+#Brand a {
+    text-decoration: none;
+    color: white;
+}
+
+#check {
+    display: none;
+}
+
+#check,
+#btn {
+    float: right;
+    color: white;
+    padding-top: 30px;
+    padding-right: 36px;
+    cursor: pointer;
+    display: none;
+}
+
+.header ul li a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+.header ul li a.active {
+    background: #2d366f;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+
+@media only screen and (max-width:952px) {
+    #Brand {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .header ul li {
+        font-size: 14px;
+    }
+    section {
+        height: 125vh;
+    }
+}
+
+@media only screen and (max-width:852px) {
+    #btn {
+        display: block;
+    }
+    .header ul {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #4242b591;
+        top: 80px;
+        left: -1000px;
+        text-align: center;
+    }
+    .header ul li {
+        float: none;
+        line-height: 10px;
+    }
+    #check:checked~ul {
+        left: 0;
+        transition: 0.5s;
+    }
+    section {
+        height: 100vh;
+        background-position: 0px;
+        background-size: cover;
+    }
+}

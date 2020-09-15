@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="introduce.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <input type="checkbox" id="check">
+        <label for="check" id="btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="" id="Brand">
+            <a href="">Travel</a> 
+        </label>
+        <ul>
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="introduct.html">Introduction</a>
+            </li>
+            <li>
+                <a href="place.html">Places</a>
+            </li>
+            <li>
+                <a href="SignUp.html">Sign Up</a>
+            </li>
+            <li>
+                <a href="">Contacts</a>
+            </li>
+        </ul>
+    </div>
+    <!-- xong header -->
+    <div class="Slide">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href=""><img src="img/1.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/2.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/3.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- xong slide -->
+    <div class="Content">
+        <div class="Content_Tittle">
+            <a href=""> Giới Thiệu</a>
+        </div>
+        <div class="Content_Small">
+            <p>
+                <h3 style="font-size:16px;text-align: center;">ĐỊA ĐẠO CỦ CHI - MỘT KỲ TÍCH ANH HÙNG</h3>
+            </p>
+            <p>
+                Địa đạo Củ Chi được bảo tồn ở hai địa điểm: - Địa đạo Bến Dược (căn cứ Khu ủy, Bộ Tư lệnh Quân khu Sài Gòn – Chợ Lớn – Gia Định) tại ấp Phú Hiệp, xã Phú Mỹ Hưng, huyện Củ Chi, Thành phố Hồ Chí Minh, được Bộ Văn hóa công nhận Di tích Lịch sử Văn hóa quốc
+                gia theo Quyết định số 54/VHQĐ ngày 29 tháng 4 năm 1979. - Địa đạo Bến Đình (căn cứ Huyện ủy Củ Chi) tại ấp Bến Đình, xã Nhuận Đức, huyện Củ Chi, Thành phố Hồ Chí Minh, được Bộ Văn hóa – Thông tin công nhận Di tích lịch sử quốc gia theo
+                Quyết định số 101/2004/QĐ-BVHTT ngày 15 tháng 12 năm 2004.
+            </p>
+            <img src="img/35.jpg" alt="">
+            <p>Trước kia địa đạo ở Củ Chi là căn cứ kháng chiến, hệ thống phòng thủ kiên cố nằm sâu trong lòng đất của dân tộc ta trong thời kỳ chiến tranh Đông Dương và chiến tranh Việt Nam. Được mệnh danh là “thành phố trong lòng đất” địa đạo Củ Chi không
+                chỉ có hệ thống đường hầm như mê cung mà còn có rất nhiều phòng, bệnh xá, nhà bếp, kho chứa, phòng làm việc,… với hệ thống thông hơi ra các bụi cây trong rừng.</p>
+        </div>
+        <!-- xong Content -->
+        <div class="footer">
+            <div class="loader"><i class="fab fa-instagram"></i>
+            </div>
+            <div class="loader"><i class="fab fa-facebook-f"></i></div>
+            <div class="loader"><i class="fab fa-twitter"></i></div>
+            <div class="loader"><i class="fab fa-youtube"></i></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="owlcarousel/jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        </script>
+</body>
+
+</html>

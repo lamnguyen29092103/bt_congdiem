@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="introduce.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <input type="checkbox" id="check">
+        <label for="check" id="btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="" id="Brand">
+            <a href="">Travel</a> 
+        </label>
+        <ul>
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="introduct.html">Introduction</a>
+            </li>
+            <li>
+                <a href="place.html">Places</a>
+            </li>
+            <li>
+                <a href="SignUp.html">Sign Up</a>
+            </li>
+            <li>
+                <a href="">Contacts</a>
+            </li>
+        </ul>
+    </div>
+    <!-- xong header -->
+    <div class="Slide">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href=""><img src="img/1.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/2.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="img/3.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- xong slide -->
+    <div class="Content">
+        <div class="Content_Tittle">
+            <a href=""> Giới Thiệu</a>
+        </div>
+        <div class="Content_Small">
+            <h3 style="margin-left: 20px;">Hồ Bán Nguyệt và cầu Ánh Sao nằm ở đâu?</h3>
+            <img src="img/37.jpg" alt="">
+            <p>Hồ Bán Nguyệt tọa lạc ở khu đô thị mới Phú Mỹ Hưng, quận 7, thành phố Hồ Chí Minh. Đây là công trình được lấy cảm hứng từ nước, từ lâu đã trở thành một phần không thể thiếu trong trái tim của người dân Sài Gòn, một biểu tượng đẹp đẽ và thơ
+                mộng, một chốn hẹn hò lí tưởng cho những đôi trai tài gái sắc, cho những nhóm bạn, hay cho gia đình trong một buổi tối yên bình.</p>
+            <img src="img/39.jpg" alt="">
+            <p>
+                Nằm vắt ngang qua hồ Bán Nguyệt là cầu Ánh Sao, một dải ánh sáng đẹp đẽ ở lòng Sài Gòn. Tên gọi Ánh Sao cũng là bởi về đêm, khi cầu lên đèn, trông không khác nào một dải ánh sáng, tựa như những vì sao sáng lấp lánh nơi lưng chừng bầu trời, tạo nên một
+                khung cảnh vô cùng lãng mạn và huyền ảo.
+            </p>
+            <h3 style="margin-left: 20px;">Hồ Bán Nguyệt và cầu Ánh Sao lung linh trong đêm</h3>
+            <p>Hiện nay, hồ Bán Nguyệt là một trong những tâm điểm của Sài Gòn với khung cảnh lung linh, lấp lánh và những dịch vụ, trung tâm thương mại không ngừng phát triển, là thiên đường cho những vị khách muốn tìm đến sự thoải mái, rộng lớn, yên bình
+                bởi không gian rộng và thoáng đãng của nó.</p>
+            <img src="img/40.jpg" alt="">
+            <p>
+                Cầu Ánh Sao dài 154m, hình dáng cong cong như mặt trăng, dọc chiều dài cầu được gắn đèn led đổi màu liên tục khiến cho những người đi trên cầu có cảm giác mình đang sải bước trên những vì sao.
+            </p>
+            <img src="img/41.jpg" alt="">
+        </div>
+        <!-- xong Content -->
+        <div class="footer">
+            <div class="loader"><i class="fab fa-instagram"></i>
+            </div>
+            <div class="loader"><i class="fab fa-facebook-f"></i></div>
+            <div class="loader"><i class="fab fa-twitter"></i></div>
+            <div class="loader"><i class="fab fa-youtube"></i></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="owlcarousel/jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        </script>
+</body>
+
+</html>
